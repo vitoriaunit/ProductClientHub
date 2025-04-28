@@ -1,0 +1,11 @@
+@PruductClientHub.API_HostAddress = http://localhost:5259
+
+GET {{PruductClientHub.API_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{PruductClientHub.API_HostAddress}}/todos/1
+Accept: application/json
+
+###
