@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace PruductClientHub.API.Controllers
+namespace ProductClientHub.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ClientsController : ControllerBase
     {
         [HttpPost]
-        public IActionResult Register() 
+        public IActionResult Register()
         {
-            return Ok();        
+            return Ok();
         }
 
 
